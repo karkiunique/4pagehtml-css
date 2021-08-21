@@ -3,10 +3,18 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-div.bottom{
-  position: relative;
-  width: 100%;
-  bottom:4px;
+  .bottom{
+    position: relative;
+    width: 100%;
+    length: 50px;
+    background-color: blue;
+  }
+.top{
+  position: absolute;
+  top:10px;
+  align: left;
+  background-color: red;
+
 }
     </style>
 
@@ -15,11 +23,8 @@ div.bottom{
   <body background = "background_all.JPG">
 
 <img  src = "header.jpg" alt="Header" width="99.99%" />
-<br>
-<br>
-<br>
-<br>
-<center>
+
+<div class = "top">
 <a href="home.html"> Home </a>
 |
 <a href = "course.html"> Course </a>
@@ -29,8 +34,8 @@ div.bottom{
 <a href="contact.html"> Contact </a>
 |
 <a href="gallery.html"> Gallery </a>
-</center>
- <u><center> <h1> Course Offered </h1> </center> </u>
+</div>
+ <u><center> <h1 style ="position: relative; top: -80px"> Course Offered </h1> </center> </u>
  <br>
  <br>
  <center><u> <h2> Graphics </h2></u></center>
@@ -44,7 +49,7 @@ div.bottom{
 <strong> <u> <p> CSS </strong></u>  stands for Cascading Style Sheets, It describes how HTML elements appear on the screen. CSS provide easy and effective way to specify various attributes for the HTML tags. Using CSS, you can specify a number of style properties for a given HTML elements.</p>
 <strong <u> <p> JavaScript </strong> <u>  is a scripting language commonly used in web development. It was developed by Netscape to build dynamic and interactive websites. JavaScript is a client-side scripting language, which means the source code is processed on client's web browser rather than on the web server. JavaScript is use to program the behavior of web pages.</p>
 
-<div class = "botttom"> <img src="footer.jpg" alt = "footer" width = "100%" /> </div>
+<fieldset class= "bottom"><strong><center><p style = "color: white"> All Rights Reserved 2021 @ Unique Karki </p></center></fieldset></strong>
     </body>
 
 </html>
